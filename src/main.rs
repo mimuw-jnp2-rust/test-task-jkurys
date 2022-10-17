@@ -1,5 +1,5 @@
 fn test() -> bool {
-   true
+    false
 }
 
 fn main() {
@@ -13,6 +13,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert!(test());
+        assert!(!test());
     }
 }
